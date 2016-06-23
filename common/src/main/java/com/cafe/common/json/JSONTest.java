@@ -17,7 +17,7 @@ public class JSONTest {
      * @throws Exception 
      */
     public static void main(String[] args) throws Exception {
-        testJsonArray();
+        // testJsonArray();
     }
 
     public static void testJsonObject() {
