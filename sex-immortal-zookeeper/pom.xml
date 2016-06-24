@@ -4,14 +4,11 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.cafe</groupId>
-    <artifactId>sex-immortal</artifactId>
+    <artifactId>six-immortal</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <groupId>com.cafe</groupId>
-  <artifactId>sex-immortal-zookeeper</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <artifactId>six-immortal-zookeeper</artifactId>
   <name>sex-immortal-zookeeper</name>
-  <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
@@ -21,6 +18,22 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+            <groupId>com.cafe</groupId>
+            <artifactId>six-immortal-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.16.6</version>
+            <scope>provided</scope>
+    </dependency>
+    <dependency>
+       <groupId>org.apache.curator</groupId>
+       <artifactId>curator-recipes</artifactId>
+       <version>2.9.0</version>
     </dependency>
   </dependencies>
 </project>
