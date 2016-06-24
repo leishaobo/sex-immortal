@@ -6,6 +6,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <modules>
-    <module>common</module>
+    <module>six-immortal-common</module>
+    <module>sex-immortal-zookeeper</module>
   </modules>
 </project>

@@ -5,7 +5,7 @@
     <artifactId>sex-immortal</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>common</artifactId>
+  <artifactId>six-immortal-common</artifactId>
   <dependencies>
   	<dependency>
 	    <groupId>net.sf.json-lib</groupId>
